@@ -67,7 +67,7 @@ export default function App() {
                 title="This Website"
                 description="A portfolio website to showcase my projects and skills."
                 techStack={['React', 'Tailwind CSS', 'Vite']}
-                repoLink="https://github.com/Gui_Oba/Portfolio"
+                repoLink="https://github.com/Gui-Oba/Portfolio"
               />
               {/* Add more <ProjectCard /> instances as needed */}
             </div>
