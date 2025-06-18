@@ -53,22 +53,21 @@ export default function App() {
               <ProjectCard
                 title="Mediqueue"
                 description="Mediqueue is a software designed to alleviate stress and anxiety within Emergency Department waiting rooms."
-                techStack={['React', 'Tailwind CSS', 'Vite']}
-                demoLink="https://your-demo-url.com"
+                techStack={['React', 'Typescript', 'Python']}
                 repoLink="https://github.com/Gui-Oba/mediqueue"
               />
               <ProjectCard
-                title="API Server"
-                description="Node.js/Express API server with MongoDB, JWT authentication, and Dockerized deployment."
-                techStack={['Node.js', 'Express', 'MongoDB']}
-                repoLink="https://github.com/yourusername/api-server"
+                title="Hack4Impact McGill"
+                description="Website for Hack4Impact McGill, a student-run organization that builds tech solutions for non-profits."
+                techStack={['Node.js', 'React', 'Typescript']}
+                repoLink="https://github.com/Gui-Oba/Hack4Impact-McGill-Website"
               />
 
               <ProjectCard
                 title="This Website"
-                description="Node.js/Express API server with MongoDB, JWT authentication, and Dockerized deployment."
-                techStack={['Node.js', 'Express', 'MongoDB']}
-                repoLink="https://github.com/yourusername/api-server"
+                description="A portfolio website to showcase my projects and skills."
+                techStack={['React', 'Tailwind CSS', 'Vite']}
+                repoLink="https://github.com/Gui_Oba/Portfolio"
               />
               {/* Add more <ProjectCard /> instances as needed */}
             </div>
