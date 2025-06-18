@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+	<title>Logo</title>
+	<defs>
+		<image  width="372" height="445" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXQAAAG9AgMAAAB46mW8AAAAAXNSR0IB2cksfwAAAAxQTFRFkZGRAAAAAAAA////9N0StAAAAAR0Uk5TAP8A/yAJvfoAAAGWSURBVHic7d2xTQMxFAZggkRDzxJMwQgUAVEySkahRIGCEZiCJehpkACF58LGNpyUQDjr+wtHl7O/a5/sp7vFQSeLZe9OnZOzzfi0qhE6nU6n0+n0kfTjm834fj/drfP6QKfT6XQ6nb4PPeqdXeTofDO+XdHpdDqdTqfT+0n1HJ1Op9PpdPrs9YvdsmXodDqdTqfT6XQ6nU6n0+n/VD+8zS7yFutobkq5/BxPV18n0el0Op1Op4+oFwvrvFxPnkSn0+l0Op0+ih4/0bcUC1OHdp4otvJ0J4Xe6oqi0+l0Op1On6Ne71wVe1aRelNq0iQ6nU6n0+n0v9PzSicWpnJonS2MYiqf1DiJKyouOp1Op9Pp9KH0yHZ7S8VtOp1Op9Pp9NnrcZWfxG2Xn8756HQ6nU6n0+eoR+JN2Y0jvG7qnav+l0/odDqdTqfT96g3WpIi62oSnU6n0+l0+rh6+mvZeUY34T4/1hSdTqfT6XT6eHr+jKLYaiR2rhounU6n0+l0+uB6Sv2CgSJ339+m0+l0Op1O/339A9Z/Tpj+h5xkAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="img1" href="#img1" x="64" y="25"/>
+</svg>
