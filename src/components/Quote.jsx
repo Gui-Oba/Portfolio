@@ -25,10 +25,15 @@ export default function QuoteOfTheDay() {
 
   return (
     <div className="py-12 px-6 text-center text-gray-800">
-      <blockquote className="italic text-gray-600 font-serif text-xl max-w-3xl mx-auto">
+      <blockquote className="italic text-gray-600  text-xl max-w-3xl mx-auto">
         “{quote.quote}”
       </blockquote>
-      <p className="mt-4 text-sm"> {quote.author}</p>
+      <p className="mt-4 text-sm">
+            {quote.author ? `— ${quote.author}` : '— Unknown'}
+            {quote.year ? `, ${quote.year}` : ''}
+            {quote.source ? `, ${quote.source}` : ''}
+      </p>
+
     </div>
   );
 }
