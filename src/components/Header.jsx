@@ -34,13 +34,20 @@ export default function Header() {
               Guilherme&nbsp;Oba&nbsp;de&nbsp;Mesquita&nbsp;Sampaio
             </span>
           </span>
+          
         </div>
 
         {/* Right: Date */}
-        <div className="mt-2 md:mt-0 text-center md:text-right">
+        <div className="mt-2 md:mt-0 text-right md:text-right">
           {new Date().getFullYear()} {new Date().getMonth() + 1}{' '}
           {new Date().getDate()}
         </div>
+        <a
+              href="#projects"
+              className="inline-block bg-white font-semibold rounded-full px-8 py-3 hover:bg-gray-100 transition"
+            >
+              The Cave
+            </a>
       </div>
     </header>
   );

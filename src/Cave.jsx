@@ -2,14 +2,13 @@ import './App.css'
 import ProjectCard from './components/ProjectCard';
 import Header from './components/Header';
 import Gui_Title from './assets/Gui_Title.svg';
-import QuoteOfTheDay from './components/Quote';
 
 
 
-export default function App() {
+export default function Cave() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      
+
       <Header />
 
       {/* Main Content */}
@@ -17,11 +16,11 @@ export default function App() {
         {/* Hero / About Section */}
         <section
           id="about"
-          className="relative flex items-center justify-center h-screen -mb-[8vh] bg-white text-black"
+          className="h-screen flex flex-col items-center justify-center bg-white text-black"
         >
-          <div className="-translate-y-[8vh] sm:-translate-y-[6vh] lg:-translate-y-[10vh] px-6 text-center">
+          <div className="container mx-auto px-6 text-center">
             <h1 className="flex items-center justify-center space-x-3">
-              <img src={Gui_Title} alt="Gui Oba" className="h-75 w-260" />
+              <img src={Gui_Title} alt="Gui Oba" className="h-80 w-260" />
             </h1>
             <p className="text-lg lg:text-xl max-w-2xl mx-auto mb-6 opacity-90">
               Computer Engineering Student @ McGill University
@@ -42,7 +41,7 @@ export default function App() {
         </section>
 
         {/* Projects Section */}
-        <section id="projects" className="py-20">
+        <section id="projects" className="py-20 mb-12">
           <div className="container mx-auto px-6">
             <h2 className="text-4xl font-extrabold text-black text-center mb-12">
               Projects
@@ -200,10 +199,6 @@ export default function App() {
             </div>
           </div>
         </section>
-
-        {/* Quote of the Day */}
-        <QuoteOfTheDay />
-
       </main>
 
       {/* Footer */}
