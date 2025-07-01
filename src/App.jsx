@@ -67,6 +67,14 @@ export default function App() {
                 techStack={['React', 'Tailwind CSS', 'Vite']}
                 repoLink="https://github.com/Gui-Oba/Portfolio"
               />
+
+              {/* <ProjectCard
+                title="Grocery Mangement System"
+                description="A web application for managing grocery lists and recipes."
+                techStack={['Java', 'Gherkin', 'Umple']}
+                repoLink="https://github.com/Gui-Oba/Grocery-Management-System"
+              /> */}
+
               {/* Add more <ProjectCard /> instances as needed */}
             </div>
           </div>
