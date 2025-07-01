@@ -1,26 +1,29 @@
-import './App.css'
-import ProjectCard from './components/ProjectCard';
-import Header from './components/Header';
-import Gui_Title from './assets/Gui_Title.svg';
+import '../App.css'; // Ensure styles are applied
+import ProjectCard from '../components/ProjectCard';
+import Header from '../components/Header';
+import Gui_Title from '../assets/Gui_Title.svg';
+import Prince from '../assets/le_petit_prince.svg';
+import QuoteOfTheDay from '../components/Quote';
 
 
 
-export default function Cave() {
+export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
-
+      
       <Header />
 
       {/* Main Content */}
       <main className="flex-grow">
-        {/* Hero / About Section */}
+        {/* Hero */}
         <section
           id="about"
-          className="h-screen flex flex-col items-center justify-center bg-white text-black"
+          className="relative flex items-center justify-center h-screen  bg-white text-black"
         >
-          <div className="container mx-auto px-6 text-center">
+          {/* This ensures title is always centered, with the projects outside of view */}
+          <div className="-translate-y-[8vh] sm:-translate-y-[6vh] lg:-translate-y-[10vh] px-6 text-center">
             <h1 className="flex items-center justify-center space-x-3">
-              <img src={Gui_Title} alt="Gui Oba" className="h-80 w-260" />
+              <img src={Gui_Title} alt="Gui Oba" className="h-75 w-260" />
             </h1>
             <p className="text-lg lg:text-xl max-w-2xl mx-auto mb-6 opacity-90">
               Computer Engineering Student @ McGill University
@@ -41,7 +44,7 @@ export default function Cave() {
         </section>
 
         {/* Projects Section */}
-        <section id="projects" className="py-20 mb-12">
+        <section id="projects" className="py-20">
           <div className="container mx-auto px-6">
             <h2 className="text-4xl font-extrabold text-black text-center mb-12">
               Projects
@@ -66,7 +69,13 @@ export default function Cave() {
                 techStack={['React', 'Tailwind CSS', 'Vite']}
                 repoLink="https://github.com/Gui-Oba/Portfolio"
               />
-              {/* Add more <ProjectCard /> instances as needed */}
+
+              {/* <ProjectCard
+                title="Grocery Mangement System"
+                description="A web application for managing grocery lists and recipes."
+                techStack={['Java', 'Gherkin', 'Umple']}
+                repoLink="https://github.com/Gui-Oba/Grocery-Management-System"
+              /> */}
             </div>
           </div>
         </section>
@@ -74,21 +83,25 @@ export default function Cave() {
         {/* Projects Section */}
         <section id="whoami" className="py-20 bg-white">
           <div className="mx-auto px-6">
-            <h2 className="text-4xl font-extrabold text-black text-center mb-12">
+            <h2 className="text-4xl font-extrabold text-black text-center mb-10">
               Who Am I?
             </h2>
-            <div className="max-w-3xl mx-auto text-left">
+            <div className="max-w-3xl mx-auto text-center mb-10"> 
               <p className="text-lg text-black mb-6">
-                I'm a Computer Engineering student at McGill University, passionate about software development and problem-solving. I love building applications that make a difference.
+                I'm a Computer Engineering student at McGill University. I love creating things that make a difference.
               </p>
               <p className="text-lg text-black mb-6">
                 My journey in tech has been fueled by curiosity and a desire to create impactful solutions. Whether it's through coding, collaborating on projects, or exploring new technologies, I'm always eager to learn and grow.
               </p>
               <p className="text-lg text-black">
-                When I'm not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or enjoying a good book.
+                When I'm not coding, you can find me exploring the world, hanging with friends, or enjoying a good book.
               </p>
-              </div>
-          </div>
+            </div>
+              <h1 className="flex items-left justify-center ml-20 space-x-3">
+              <img src={Prince} alt="Gui Oba" className="h-60 w-260" />
+            </h1>
+            </div>
+          {/* </div> */}
         </section>
 
         {/* Contact Section */}
@@ -199,6 +212,10 @@ export default function Cave() {
             </div>
           </div>
         </section>
+
+        {/* Quote of the Day */}
+        <QuoteOfTheDay />
+
       </main>
 
       {/* Footer */}

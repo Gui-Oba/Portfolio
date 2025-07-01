@@ -24,8 +24,9 @@ export default function QuoteOfTheDay() {
   if (!quote) return <p>Loading quote...</p>;
 
   return (
-    <div className="py-12 px-6 text-center text-gray-800">
-      <blockquote className="italic text-gray-600  text-xl max-w-3xl mx-auto">
+    <div className="py-12 px-6 text-center text-black ">
+
+      <blockquote className="italic text-black text-xl max-w-3xl mx-auto">
         “{quote.quote}”
       </blockquote>
       <p className="mt-4 text-sm">
@@ -33,7 +34,6 @@ export default function QuoteOfTheDay() {
             {quote.year ? `, ${quote.year}` : ''}
             {quote.source ? `, ${quote.source}` : ''}
       </p>
-
     </div>
   );
 }

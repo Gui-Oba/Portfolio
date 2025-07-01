@@ -1,5 +1,9 @@
 import React from 'react';
+import '../App.css'; // Ensure styles are applied
 import Logo from '../assets/Logo.svg';
+import Cave from '../assets/Cave.svg';
+import { Link } from 'react-router-dom';
+
 
 export default function Header() {
   return (
@@ -10,44 +14,27 @@ export default function Header() {
           <img src={Logo} alt="Gui Oba Logo" className="h-10 w-10" />
 
           {/* Name wrapper */}
-          <span className="relative inline-grid overflow-hidden text-2xl font-bold leading-none text-gray-800 whitespace-nowrap">
+          <span className="relative inline-grid  text-2xl font-bold leading-none text-gray-800 ">
             {/* Original text */}
-            <span
-              className="
-                transition-all duration-600 ease-in-out
-                row-start-1 col-start-1 text-left
-                group-hover:-translate-y-full group-hover:opacity-0
-              "
-            >
               Gui&nbsp;Oba
             </span>
-
-            {/* Hover text */}
-            <span
-              className="
-                transition-all duration-600 ease-in-out
-                row-start-1 col-start-1
-                translate-y-full opacity-0
-                group-hover:translate-y-0 group-hover:opacity-100
-              "
-            >
-              Guilherme&nbsp;Oba&nbsp;de&nbsp;Mesquita&nbsp;Sampaio
-            </span>
-          </span>
-          
         </div>
 
         {/* Right: Date */}
-        <div className="mt-2 md:mt-0 text-right md:text-right">
-          {new Date().getFullYear()} {new Date().getMonth() + 1}{' '}
-          {new Date().getDate()}
-        </div>
-        {/* <a
-              href="#projects"
-              className="inline-block bg-white font-semibold rounded-full px-8 py-3 hover:bg-gray-100 transition"
-            >
-              The Cave
-            </a> */}
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 items-center justify-items-center gap-10 mt-4 md:mt-0">
+        
+          <div className="mt-2 md:mt-0 text-center md:text-right">
+            {new Date().getFullYear()} {new Date().getMonth() + 1}{' '}
+            {new Date().getDate()}
+          </div>
+        
+          {/* Cave Link */}
+          <Link to="/cave">
+            <img src={Cave} alt="Cave" className="h-10 w-10 cursor-pointer" />
+          </Link>
+
+
+        </div>    
       </div>
     </header>
   );
