@@ -1,9 +1,5 @@
-import React from 'react';
 import '../App.css'; // Ensure styles are applied
 import Logo from '../assets/Logo.svg';
-import Cave from '../assets/Cave.svg';
-import { Link } from 'react-router-dom';
-
 
 export default function Header() {
   return (
@@ -22,18 +18,10 @@ export default function Header() {
 
         {/* Right: Date */}
         <div className=" items-center justify-items-center  mt-4 md:mt-0">
-        
           <div className="mt-2 md:mt-0 text-center md:text-right">
             {new Date().getFullYear()} {new Date().getMonth() + 1}{' '}
             {new Date().getDate()}
           </div>
-        
-          {/* Cave Link */}
-          {/* <Link to="/cave">
-            <img src={Cave} alt="Cave" className="h-10 w-10 cursor-pointer" />
-          </Link> */}
-
-
         </div>    
       </div>
     </header>

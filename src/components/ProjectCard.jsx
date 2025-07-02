@@ -1,4 +1,3 @@
-import React from 'react';
 
 export default function ProjectCard({ title, description, techStack, demoLink, repoLink }) {
   return (
