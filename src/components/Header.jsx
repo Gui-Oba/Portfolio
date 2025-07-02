@@ -21,7 +21,7 @@ export default function Header() {
         </div>
 
         {/* Right: Date */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 items-center justify-items-center gap-10 mt-4 md:mt-0">
+        <div className=" items-center justify-items-center  mt-4 md:mt-0">
         
           <div className="mt-2 md:mt-0 text-center md:text-right">
             {new Date().getFullYear()} {new Date().getMonth() + 1}{' '}
@@ -29,9 +29,9 @@ export default function Header() {
           </div>
         
           {/* Cave Link */}
-          <Link to="/cave">
+          {/* <Link to="/cave">
             <img src={Cave} alt="Cave" className="h-10 w-10 cursor-pointer" />
-          </Link>
+          </Link> */}
 
 
         </div>    

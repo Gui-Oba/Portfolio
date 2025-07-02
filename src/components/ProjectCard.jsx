@@ -25,9 +25,9 @@ export default function ProjectCard({ title, description, techStack, demoLink, r
             href={demoLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition"
           >
-            Live Demo
+            Visit Site
           </a>
         )}
         {repoLink && (

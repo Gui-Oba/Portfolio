@@ -38,7 +38,7 @@ export default function Home() {
               href="#whoami"
               className="inline-block bg-white font-semibold rounded-full px-8 py-3 hover:bg-gray-100 transition"
             >
-              WhoAmI
+              About Me
             </a>
           </div>
         </section>
@@ -61,6 +61,7 @@ export default function Home() {
                 description="Website for Hack4Impact McGill, a student-run organization that builds tech solutions for non-profits."
                 techStack={['Node.js', 'React', 'Typescript']}
                 repoLink="https://github.com/Gui-Oba/Hack4Impact-McGill-Website"
+                demoLink={"https://mcgill.hack4impact.org"}
               />
 
               <ProjectCard
@@ -214,7 +215,7 @@ export default function Home() {
         </section>
 
         {/* Quote of the Day */}
-        <QuoteOfTheDay />
+        {/* <QuoteOfTheDay /> */}
 
       </main>
 
