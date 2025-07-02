@@ -3,7 +3,7 @@ import ProjectCard from '../components/ProjectCard';
 import Header from '../components/Header';
 import Gui_Title from '../assets/Gui_Title.svg';
 import Prince from '../assets/le_petit_prince.svg';
-import QuoteOfTheDay from '../components/Quote';
+
 
 
 
@@ -213,9 +213,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* Quote of the Day */}
-        {/* <QuoteOfTheDay /> */}
 
       </main>
 
