@@ -15,6 +15,7 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="flex-grow">
+        
         {/* Hero */}
         <section
           id="about"
