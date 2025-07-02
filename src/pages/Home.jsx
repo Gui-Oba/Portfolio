@@ -9,13 +9,15 @@ import Prince from '../assets/le_petit_prince.svg';
 
 export default function Home() {
   return (
+
+    
     <div className="min-h-screen flex flex-col bg-white">
       
       <Header />
 
       {/* Main Content */}
       <main className="flex-grow">
-        
+
         {/* Hero */}
         <section
           id="about"
