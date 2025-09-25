@@ -53,6 +53,12 @@ export default function Home() {
               Projects
             </h2>
             <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+               <ProjectCard
+                title="Investment Model"
+                description="A hackathon project where I built an investment model that predicts stock returns using gradient boosting."
+                techStack={['Jupyter Notebook', 'DuckDB', 'Python', 'XGBoost']}
+                repoLink="https://github.com/Gui-Oba/FIAM-model-A"
+              />
               <ProjectCard
                 title="Mediqueue"
                 description="Mediqueue is a software designed to alleviate stress and anxiety within Emergency Department waiting rooms."
@@ -92,13 +98,13 @@ export default function Home() {
             </h2>
             <div className="max-w-3xl mx-auto text-center mb-10"> 
               <p className="text-lg text-black mb-6">
-                I'm a Computer Engineering student at McGill University. I love creating things that make a difference.
+                I'm a third year Computer Engineering student at McGill University passionate about machine learning, data science and computer hardware. 
               </p>
               <p className="text-lg text-black mb-6">
-                My journey in tech has been fueled by curiosity and a desire to create impactful solutions. Whether it's through coding, collaborating on projects, or exploring new technologies, I'm always eager to learn and grow.
+                My journey in tech has been fueled by curiosity and a desire to create impactful solutions. From my work at Hack4Impact McGill, a nonprofit whose mission is to develop software for humanitarian organizations, to my participation in many hackathons, including this year's FIAM Asset Management Hackathon where my teammates and I are currently building a stock-predicting ML model, I actively seek out opportunities to test my skills and expand my understanding.  Whether it's through coding, collaborating on projects, or exploring new technologies, I'm always eager to learn and grow.
               </p>
               <p className="text-lg text-black">
-                When I'm not coding, you can find me exploring the world, hanging with friends, or enjoying a good book.
+                In my spare time, you can find me tackling new routes at the bouldering gym or going for a run around the city. 
               </p>
             </div>
               <h1 className="flex items-left justify-center ml-20 space-x-3">
