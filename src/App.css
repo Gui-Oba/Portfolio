@@ -45,3 +45,7 @@ html {
 .read-the-docs {
   color: #888;
 }
+
+.font-arial {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}

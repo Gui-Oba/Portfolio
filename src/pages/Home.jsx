@@ -114,7 +114,7 @@ export default function Home() {
           {/* </div> */}
         </section>
 
-        {/* Contact Section */}
+        {/* Contact Section
         <section className="bg-white py-24">
           <div className="container mx-auto px-6">
             <h2 className="text-4xl font-extrabold text-center text-black mb-12">
@@ -122,7 +122,7 @@ export default function Home() {
             </h2>
             <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden">
               <div className="grid grid-cols-1 lg:grid-cols-2">
-                {/* Left Panel: Text + Social Links */}
+                {/* Left Panel: Text + Social Links
                 <div className="p-12 bg-gradient-to-br from-indigo-600 to-blue-500 text-white flex flex-col justify-center space-y-6">
                   <h3 className="text-2xl font-bold">Get in Touch</h3>
                   <p className="text-gray-200">
@@ -151,7 +151,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* Right Panel: Sleek Contact Form */}
+                {/* Right Panel: Sleek Contact Form 
                 <div className="p-12">
                   <form
                     action={`mailto:gui.msampaio@gmail.com`}
@@ -221,7 +221,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
       </main>
 
