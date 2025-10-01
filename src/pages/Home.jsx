@@ -80,6 +80,12 @@ export default function Home() {
                 repoLink="https://github.com/Gui-Oba/Portfolio"
               />
 
+              <ProjectCard
+                title="BrickPi Robot"
+                description="A LEGO BrickPi robot trained on sensor data to perform automated tasks"
+                techStack={['Python', 'LEGO BrickPi', 'Thonny']}
+              />
+
               {/* <ProjectCard
                 title="Grocery Mangement System"
                 description="A web application for managing grocery lists and recipes."

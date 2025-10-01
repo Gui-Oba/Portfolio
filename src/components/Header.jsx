@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import '../App.css'; // Ensure styles are applied
 import Logo from '../assets/Logo.svg';
 
+
 const navLinkClasses = ({ isActive }) =>
   `text-gray-700 hover:text-black transition ${isActive ? 'font-semibold text-black' : ''}`;
 
@@ -20,12 +21,15 @@ export default function Header() {
         </Link>
 
         {/* Middle: Navigation */}
-        <nav className="flex items-center justify-center gap-6 text-base">
+        <nav className="flex items-center justify-center gap-10 text-base">
           <NavLink to="/" className={navLinkClasses} end>
             Home
           </NavLink>
           <NavLink to="/gallery" className={navLinkClasses}>
             Gallery
+          </NavLink>
+          <NavLink to="/writing" className={navLinkClasses}>
+            Writing
           </NavLink>
         </nav>
 
