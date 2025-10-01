@@ -84,6 +84,7 @@ export default function Home() {
                 title="BrickPi Robot"
                 description="A LEGO BrickPi robot trained on sensor data to perform automated tasks"
                 techStack={['Python', 'LEGO BrickPi', 'Thonny']}
+                blogLink={"https://guioba.vercel.app/writing/brickpi-robot"}
               />
 
               {/* <ProjectCard

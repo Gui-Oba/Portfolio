@@ -75,11 +75,57 @@ export default function WritingPost() {
       );
     }
 
+    const markdownComponents = {
+      h1: ({ node, ...props }) => (
+        <h1 className="text-3xl font-bold text-gray-900 mt-10 mb-4" {...props} />
+      ),
+      h2: ({ node, ...props }) => (
+        <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-3" {...props} />
+      ),
+      h3: ({ node, ...props }) => (
+        <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-2" {...props} />
+      ),
+      p: ({ node, ...props }) => (
+        <p className="text-base leading-relaxed text-gray-800 mt-4" {...props} />
+      ),
+      ul: ({ node, ordered, ...props }) => (
+        <ul className="list-disc pl-6 space-y-2 text-gray-800 mt-4" {...props} />
+      ),
+      ol: ({ node, ordered, ...props }) => (
+        <ol className="list-decimal pl-6 space-y-2 text-gray-800 mt-4" {...props} />
+      ),
+      blockquote: ({ node, ...props }) => (
+        <blockquote
+          className="border-l-4 border-gray-200 pl-4 italic text-gray-600 mt-6"
+          {...props}
+        />
+      ),
+      code: ({ node, inline, className, children, ...props }) => (
+        <code
+          className={`rounded bg-gray-100 px-1 py-0.5 text-sm font-mono text-gray-800 ${className ?? ''}`}
+          {...props}
+        >
+          {children}
+        </code>
+      ),
+      pre: ({ node, children, ...props }) => (
+        <pre
+          className="bg-gray-900 text-gray-100 rounded-lg p-4 overflow-x-auto text-sm mt-6"
+          {...props}
+        >
+          {children}
+        </pre>
+      ),
+      a: ({ node, ...props }) => (
+        <a className="text-gray-900 underline hover:text-gray-700" {...props} />
+      ),
+    };
+
     return (
       <article className="max-w-3xl mx-auto text-left">
         <header className="mb-10">
           <p className="text-sm uppercase tracking-widest text-gray-400">
-            {meta?.date && new Date(meta.date).toLocaleDateString()}
+            {meta?.date}
           </p>
           <h1 className="text-4xl font-bold text-gray-900">{meta?.title ?? slug}</h1>
           {meta?.description && (
@@ -87,7 +133,7 @@ export default function WritingPost() {
           )}
         </header>
         <div className="space-y-6 leading-relaxed text-gray-800">
-          <ReactMarkdown>{content}</ReactMarkdown>
+          <ReactMarkdown components={markdownComponents}>{content}</ReactMarkdown>
         </div>
       </article>
     );

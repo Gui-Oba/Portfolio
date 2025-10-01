@@ -13,7 +13,7 @@ export default function PhotoCard({ image, title, description, onClick }) {
     <div
       className={`bg-white overflow-hidden ${
         interactive
-          ? 'cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-900'
+          ? 'focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-900'
           : ''
       }`}
       role={interactive ? 'button' : undefined}
@@ -26,11 +26,11 @@ export default function PhotoCard({ image, title, description, onClick }) {
           src={image}
           alt={title}
           loading="lazy"
-          className="w-full h-full object-cover transition-transform hover:-translate-y-1"
+          className="w-full h-full cursor-zoom-in object-cover transition-transform hover:-translate-y-1"
         />
       </div>
       <div className="p-1">
-        <h3 className="font-semibold text-left text-sm text-gray-900">{title}</h3>
+        <h3 className="font-semibold text-left text-sm text-white">{title}</h3>
         {description && <p className="text-xs text-gray-600 mt-1">{description}</p>}
       </div>
     </div>

@@ -1,6 +1,6 @@
 ---
-title: "Shipping This Portfolio"
-date: 2024-05-05
+title: "Designing This Portfolio"
+date: 2025-06-05
 description: "Notes on the design system, build tooling, and the trade-offs behind my personal site."
 ---
 

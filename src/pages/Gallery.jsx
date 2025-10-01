@@ -67,11 +67,11 @@ export default function Gallery() {
           <div className="max-w-2xl mx-auto text-center mb-12">
             <h1 className="text-4xl font-extrabold text-gray-900 mb-2">Photo Gallery</h1>
             <p className="text-gray-600 text-md">
-              Here I try my best to capture moments in my life. Most of the photos were taken on Kodak Gold 200 35mm film.
+              Here I try to capture moments in my life. Most of the photos were taken on Kodak Gold 200 35mm film.
             </p>
           </div>
-          <h4 className="text-2xl font-bold mb-4 mt-8 text-left">Vietnam</h4>
-          <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2">
+          <h4 className="text-2xl font-bold mb-4 mt-8 text-left">Vietnam | 08/2025</h4>
+          <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3">
             {photosViet.map((photo) => (
               <PhotoCard
                 key={photo.image}
@@ -80,8 +80,8 @@ export default function Gallery() {
               />
             ))}
           </div>
-          <h4 className="text-2xl font-bold mb-4 mt-8 text-left">New York</h4>
-          <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2">
+          <h4 className="text-2xl font-bold mb-4 mt-8 text-left">New York | 03/2025</h4>
+          <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3">
             {photosNYC.map((photo) => (
               <PhotoCard
                 key={photo.image}
@@ -90,8 +90,8 @@ export default function Gallery() {
               />
             ))}
           </div>
-          <h4 className="text-2xl font-bold mb-4 mt-8 text-left">Portugal</h4>
-          <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2">
+          <h4 className="text-2xl font-bold mb-4 mt-8 text-left">Portugal | 08/2024</h4>
+          <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3">
             {photosPT.map((photo) => (
               <PhotoCard
                 key={photo.image}
