@@ -102,14 +102,22 @@ export default function Home() {
             <h2 className="text-4xl font-extrabold text-black text-center mb-10">
               Who Am I?
             </h2>
-            <div className="max-w-3xl mx-auto text-center mb-10"> 
+            <div className="max-w-3xl grid grid-cols-2 mx-auto text-left gap-5 mb-10"> 
               <p className="text-lg text-black mb-6">
                 I'm a third year Computer Engineering student at McGill University passionate about machine learning, data science and computer hardware. 
-              </p>
-              <p className="text-lg text-black mb-6">
-                My journey in tech has been fueled by curiosity and a desire to create impactful solutions. From my work at Hack4Impact McGill, a nonprofit whose mission is to develop software for humanitarian organizations, to my participation in many hackathons, including this year's FIAM Asset Management Hackathon where my teammates and I are currently building a stock-predicting ML model, I actively seek out opportunities to test my skills and expand my understanding.  Whether it's through coding, collaborating on projects, or exploring new technologies, I'm always eager to learn and grow.
+                <br></br><br></br>
+                My journey in tech has been fueled by curiosity and a desire to create impactful solutions. From my work at 
+                Hack4Impact McGill, a nonprofit whose mission is to develop software for humanitarian organizations, 
+                to my participation in many hackathons, including this year's FIAM
+
+
               </p>
               <p className="text-lg text-black">
+                  Asset Management Hackathon where 
+                my teammates and I are currently building a stock-predicting ML model, 
+                I actively seek out opportunities to test my skills and expand my understanding.  
+                Whether it's through coding, collaborating on projects, or exploring new technologies, 
+                I'm always eager to learn and grow.<br></br><br></br>
                 In my spare time, you can find me tackling new routes at the bouldering gym or going for a run around the city. 
               </p>
             </div>
