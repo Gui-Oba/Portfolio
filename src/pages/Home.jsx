@@ -78,13 +78,14 @@ export default function Home() {
                 description="A portfolio website to showcase my projects and skills."
                 techStack={['React', 'Tailwind CSS', 'Vite']}
                 repoLink="https://github.com/Gui-Oba/Portfolio"
+                blogLink={"/writing/this-website"}
               />
 
               <ProjectCard
                 title="BrickPi Robot"
                 description="A LEGO BrickPi robot trained on sensor data to perform automated tasks"
                 techStack={['Python', 'LEGO BrickPi', 'Thonny']}
-                blogLink={"https://guioba.vercel.app/writing/brickpi-robot"}
+                blogLink={"/writing/brickpi-robot"}
               />
 
               {/* <ProjectCard
