@@ -43,6 +43,12 @@ export default function Home() {
             >
               About Me
             </a>
+                        <a
+              href="#links"
+              className="inline-block bg-white font-semibold rounded-full px-8 py-3 hover:bg-gray-100 transition"
+            >
+              Links
+            </a>
           </div>
         </section>
 
@@ -128,6 +134,33 @@ export default function Home() {
             </h1>
             </div>
           {/* </div> */}
+        </section>
+
+        <section id="links" className="py-16 bg-white">
+          <div className="container mx-auto px-6 text-center">
+            <h2 className="text-3xl font-bold text-black mb-6">Links</h2>
+            <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
+              Connect with me on LinkedIn, or check out my projects on GitHub.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                href="https://www.linkedin.com/in/guilherme-oba/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-full border border-gray-300 px-6 py-3 text-base font-semibold text-black transition hover:bg-gray-100"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/Gui-Oba"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-full border border-gray-300 px-6 py-3 text-base font-semibold text-black transition hover:bg-gray-100"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
         </section>
 
         {/* Contact Section
