@@ -67,14 +67,14 @@ export default function Home() {
               />
               <ProjectCard
                 title="Mediqueue"
-                description="Mediqueue is a software designed to alleviate stress and anxiety within Emergency Department waiting rooms."
+                description="A software designed to alleviate stress and anxiety within Emergency Department waiting rooms."
                 techStack={['React', 'Typescript', 'Python']}
                 repoLink="https://github.com/Gui-Oba/mediqueue"
               />
               <ProjectCard
                 title="Hack4Impact McGill"
                 description="Website for Hack4Impact McGill, a student-run organization that builds tech solutions for non-profits."
-                techStack={['Node.js', 'React', 'Typescript']}
+                techStack={['HTML', 'Next.js', 'React', 'JavasScript']}
                 repoLink="https://github.com/Gui-Oba/Hack4Impact-McGill-Website"
                 demoLink={"https://mcgill.hack4impact.org"}
               />
@@ -82,16 +82,23 @@ export default function Home() {
               <ProjectCard
                 title="This Website"
                 description="A portfolio website to showcase my projects and skills."
-                techStack={['React', 'Tailwind CSS', 'Vite']}
+                techStack={['Javascript', 'React', 'Tailwind CSS', 'Vite']}
                 repoLink="https://github.com/Gui-Oba/Portfolio"
                 // blogLink={"/writing/this-website"}
               />
 
               <ProjectCard
                 title="BrickPi Robot"
-                description="A LEGO BrickPi robot trained on sensor data to perform automated tasks"
+                description="A LEGO BrickPi robot trained on sensor data to perform automated tasks."
                 techStack={['Python', 'LEGO BrickPi', 'Thonny']}
                 // blogLink={"/writing/brickpi-robot"}
+              />
+
+              <ProjectCard
+                title="PantryPal"
+                description="A Java-based grocery management platform that keeps store operations, customers, and employees in sync. "
+                techStack={['Java', 'Gradle', 'Cucumber', 'Umple']}
+                repoLink={"https://github.com/Gui-Oba/PantryPal"}
               />
 
               {/* <ProjectCard

@@ -24,7 +24,7 @@ export default function ProjectCard({ title, description, techStack, demoLink, r
             href={demoLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition"
+            className="px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition"
           >
             Visit Site
           </a>
@@ -34,7 +34,7 @@ export default function ProjectCard({ title, description, techStack, demoLink, r
             href={repoLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition"
+            className="px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-700 transition"
           >
             View Code
           </a>
