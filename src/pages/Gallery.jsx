@@ -62,15 +62,15 @@ export default function Gallery() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
-      <main className="flex-grow py-16 bg-white font-arial">
+      <main className="flex-grow py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center mb-12">
             <h1 className="text-4xl font-extrabold text-gray-900 mb-2">Photo Gallery</h1>
             <p className="text-gray-600 text-md">
-              Here I try to capture moments in my life. Most of the photos were taken on Kodak Gold 200 35mm film.
+              Photography is one of my passions, and it is how I collect moments from my journeys. Most of the photos were taken on Kodak Gold 200 35mm film.
             </p>
           </div>
-          <h4 className="text-2xl font-bold mb-4 mt-8 text-left">Vietnam | 08/2025</h4>
+          <h4 className="text-xl font-bold mb-4 mt-8 text-left">Vietnam | 08-2025</h4>
           <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3">
             {photosViet.map((photo) => (
               <PhotoCard
@@ -80,7 +80,7 @@ export default function Gallery() {
               />
             ))}
           </div>
-          <h4 className="text-2xl font-bold mb-4 mt-8 text-left">New York | 03/2025</h4>
+          <h4 className="text-xl font-bold mb-4 mt-8 text-left">New York | 03-2025</h4>
           <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3">
             {photosNYC.map((photo) => (
               <PhotoCard
@@ -90,7 +90,7 @@ export default function Gallery() {
               />
             ))}
           </div>
-          <h4 className="text-2xl font-bold mb-4 mt-8 text-left">Portugal | 08/2024</h4>
+          <h4 className="text-xl font-bold mb-4 mt-8 text-left">Portugal | 08-2024</h4>
           <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-3">
             {photosPT.map((photo) => (
               <PhotoCard
@@ -133,6 +133,12 @@ export default function Gallery() {
           </div>
         </div>
       )}
+      {/* Footer */}
+      <footer className="bg-white mt-auto">
+        <div className="container mx-auto px-6 py-6 text-center text-gray-500 text-sm">
+          © {new Date().getFullYear()} Gui Oba. All rights reserved.
+        </div>
+      </footer>
     </div>
   );
 }

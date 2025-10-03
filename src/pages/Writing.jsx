@@ -9,12 +9,12 @@ export default function Writing() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
-      <main className="flex-grow py-16 bg-white font-arial">
+      <main className="flex-grow py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center mb-12">
             <h1 className="text-4xl font-extrabold text-gray-900 mb-2">Writing</h1>
             <p className="text-gray-600 mb-10 text-md">
-              I intend to write here about whatever topics I'm currently interested in.
+              I  write here about my projects or about whatever topics I'm currently interested in.
             </p>
 
             <div className="grid gap-6 sm:grid-cols-1">
@@ -31,6 +31,12 @@ export default function Writing() {
           </div>
         </div>
       </main>
+      {/* Footer */}
+      <footer className="bg-white mt-auto">
+        <div className="container mx-auto px-6 py-6 text-center text-gray-500 text-sm">
+          © {new Date().getFullYear()} Gui Oba. All rights reserved.
+        </div>
+      </footer>
     </div>
   );
 }
