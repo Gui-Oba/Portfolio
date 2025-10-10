@@ -1,8 +1,9 @@
 import '../App.css'; // Ensure styles are applied
-import ProjectCard from '../components/ProjectCard';
 import Header from '../components/Header';
+import ProjectCard from '../components/ProjectCard';
 import Gui_Title from '../assets/Gui_Title.svg';
 import Prince from '../assets/le_petit_prince.svg';
+import SkillCard from '../components/SkillCard';
 
 
 
@@ -32,6 +33,13 @@ export default function Home() {
               Computer Engineering Student @ McGill University
             </p>
             <a
+                        
+              href="#skills"
+              className="inline-block bg-white font-semibold rounded-full px-8 py-3 hover:bg-gray-100 transition"
+            >
+              Skills
+            </a>
+            <a
               href="#projects"
               className="inline-block bg-white font-semibold rounded-full px-8 py-3 hover:bg-gray-100 transition"
             >
@@ -52,6 +60,33 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Skills Section */}
+        <section id="skills" className="py-20 bg-white">
+          <div className="container mx-auto px-6">
+            <h2 className="text-4xl font-extrabold text-black text-center mb-12">
+              Skills
+            </h2>
+            <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2">
+              <SkillCard
+                title="Programming Languages / Tools"
+                techStack={['Python', 'Java', 'C / C++', 'JavaScript', 'TypeScript', 'SQL', 'Git', 'Bash']}
+              />
+              <SkillCard
+                title="Full-Stack Dev"
+                techStack={['React', 'Next.js', 'Node.js', 'GitHub', 'Tailwind CSS', 'HTML & CSS', 'Supabase']}
+              />
+              <SkillCard
+                title="Data Science / ML"
+                techStack={['Pandas', 'NumPy', 'scikit-learn', 'XGBoost', 'Jupyter Notebook', 'PyTorch', 'PyArrow', 'DuckDB']}
+              />
+              <SkillCard
+                title="Design"
+                techStack={['Figma', 'Photoshop', 'Lightroom', 'Blender', 'Premiere Pro', 'Procreate']}
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Projects Section */}
         <section id="projects" className="py-20">
           <div className="container mx-auto px-6">
@@ -61,7 +96,7 @@ export default function Home() {
             <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                <ProjectCard
                 title="Investment Model"
-                description="A hackathon project where I built an investment model that predicts stock returns using gradient boosting."
+                description="A hackathon project where we built an end-to-end research pipeline for cross-sectional equity return prediction and portfolio evaluation."
                 techStack={['Jupyter Notebook', 'DuckDB', 'Python', 'XGBoost']}
                 repoLink="https://github.com/Gui-Oba/FIAM-model-A"
               />

@@ -1,7 +1,7 @@
 
 export default function ProjectCard({ title, description, techStack, demoLink, repoLink, blogLink }) {
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col justify-between">
+    <div className="bg-white rounded-2xl transition-transform  hover:-translate-y-1 shadow-lg p-6 flex flex-col justify-between">
       <div>
         <h3 className="text-2xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-700 mb-4">{description}</p>

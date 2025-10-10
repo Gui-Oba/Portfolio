@@ -67,7 +67,7 @@ export default function Gallery() {
           <div className="max-w-2xl mx-auto text-center mb-12">
             <h1 className="text-4xl font-extrabold text-gray-900 mb-2">Photo Gallery</h1>
             <p className="text-gray-600 text-md">
-              Photography is one of my passions, and it is how I collect moments from my journeys. Most of the photos were taken on Kodak Gold 200 35mm film.
+              Photography is how I collect moments from my journeys. Most photos were taken on Kodak Gold 200 35mm film.
             </p>
           </div>
           <h4 className="text-xl font-bold mb-4 mt-8 text-left">Vietnam | 08-2025</h4>
