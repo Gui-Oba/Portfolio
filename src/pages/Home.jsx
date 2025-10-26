@@ -4,14 +4,12 @@ import ProjectCard from '../components/ProjectCard';
 import Gui_Title from '../assets/Gui_Title.svg';
 import Prince from '../assets/le_petit_prince.svg';
 import SkillCard from '../components/SkillCard';
-
+import { SpeedInsights } from '@vercel/speed-insights/next';  
 
 
 
 export default function Home() {
   return (
-
-    
     <div className="min-h-screen flex flex-col bg-white">
       
       <Header />
@@ -205,114 +203,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Contact Section
-        <section className="bg-white py-24">
-          <div className="container mx-auto px-6">
-            <h2 className="text-4xl font-extrabold text-center text-black mb-12">
-              Let's Build Something Together
-            </h2>
-            <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden">
-              <div className="grid grid-cols-1 lg:grid-cols-2">
-                {/* Left Panel: Text + Social Links
-                <div className="p-12 bg-gradient-to-br from-indigo-600 to-blue-500 text-white flex flex-col justify-center space-y-6">
-                  <h3 className="text-2xl font-bold">Get in Touch</h3>
-                  <p className="text-gray-200">
-                    Have a project in mind? I'm always excited to collaborate.
-                    Shoot me a message and let's chat.
-                  </p>
-                  <div className="flex space-x-6">
-                    <a
-                      href="https://www.linkedin.com/in/guilherme-oba/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center space-x-2 hover:underline"
-                    >
-                      
-                      <span className="text-sm">LinkedIn</span>
-                    </a>
-                    <a
-                      href="https://github.com/Gui-Oba"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center space-x-2 hover:underline"
-                    >
-                      
-                      <span className="text-sm">GitHub</span>
-                    </a>
-                  </div>
-                </div>
-
-                {/* Right Panel: Sleek Contact Form 
-                <div className="p-12">
-                  <form
-                    action={`mailto:gui.msampaio@gmail.com`}
-                    method="POST"
-                    encType="text/plain"
-                    className="space-y-6"
-                  >
-                    <div className="flex flex-col">
-                      <label
-                        htmlFor="name"
-                        className="text-gray-700 font-medium mb-2"
-                      >
-                        Full Name
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                        className="border-b-2 border-gray-300 focus:border-indigo-500 outline-none py-2 placeholder-gray-400 transition-colors"
-                        placeholder="Internet Person"
-                      />
-                    </div>
-
-                    <div className="flex flex-col">
-                      <label
-                        htmlFor="email"
-                        className="text-gray-700 font-medium mb-2"
-                      >
-                        Email Address
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                        className="border-b-2 border-gray-300 focus:border-indigo-500 outline-none py-2 placeholder-gray-400 transition-colors"
-                        placeholder="coolcoder@theweb.com"
-                      />
-                    </div>
-
-                    <div className="flex flex-col">
-                      <label
-                        htmlFor="message"
-                        className="text-gray-700 font-medium mb-2"
-                      >
-                        Message
-                      </label>
-                      <textarea
-                        id="message"
-                        name="message"
-                        rows="5"
-                        required
-                        className="border-b-2 border-gray-300 focus:border-indigo-500 outline-none py-2 placeholder-gray-400 transition-colors resize-none"
-                        placeholder="Tell me about your project... or about your favorite cat video!"
-                      />
-                    </div>
-
-                    <button
-                      type="submit"
-                      className="w-full py-3 bg-gradient-to-r from-indigo-600 to-blue-500 text-white font-semibold rounded-xl shadow-lg hover:from-indigo-700 hover:to-blue-600 transition"
-                    >
-                      Send Message
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
+       
 
       </main>
 
