@@ -4,8 +4,6 @@ import ProjectCard from '../components/ProjectCard';
 import Gui_Title from '../assets/Gui_Title.svg';
 import Prince from '../assets/le_petit_prince.svg';
 import SkillCard from '../components/SkillCard';
-import { SpeedInsights } from '@vercel/speed-insights/next';  
-
 
 
 export default function Home() {
