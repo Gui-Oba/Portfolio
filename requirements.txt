@@ -1,0 +1,2 @@
+# This project does not require a Python dependency lock.
+# See package.json for client-side packages installed via npm.

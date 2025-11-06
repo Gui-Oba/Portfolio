@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { Buffer } from 'buffer';
 import { useParams, Link } from 'react-router-dom';
 import matter from 'gray-matter';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 import ReactMarkdown from 'react-markdown';
 import '../App.css';
 import Header from '../components/Header';
@@ -133,7 +135,13 @@ export default function WritingPost() {
           )}
         </header>
         <div className="space-y-6 leading-relaxed text-gray-800">
-          <ReactMarkdown components={markdownComponents}>{content}</ReactMarkdown>
+          <ReactMarkdown
+            remarkPlugins={[remarkMath]}
+            rehypePlugins={[rehypeKatex]}
+            components={markdownComponents}
+          >
+            {content}
+          </ReactMarkdown>
         </div>
       </article>
     );

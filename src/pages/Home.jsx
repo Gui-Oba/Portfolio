@@ -66,10 +66,12 @@ export default function Home() {
               <SkillCard
                 title="Programming Languages / Tools"
                 techStack={['Python', 'Java', 'C / C++', 'JavaScript', 'TypeScript', 'SQL', 'Git', 'Bash']}
+                detailLink="/projects/investment-model"
               />
               <SkillCard
                 title="Full-Stack Dev"
                 techStack={['React', 'Next.js', 'Node.js', 'GitHub', 'Tailwind CSS', 'HTML & CSS', 'Supabase']}
+                detailLink="/projects/mediqueue"
               />
               <SkillCard
                 title="Data Science / ML"
@@ -95,12 +97,21 @@ export default function Home() {
                 description="A hackathon project where we built an end-to-end research pipeline for cross-sectional equity return prediction and portfolio evaluation."
                 techStack={['Jupyter Notebook', 'DuckDB', 'Python', 'XGBoost']}
                 repoLink="https://github.com/Gui-Oba/FIAM-model-A"
+                detailLink="/projects/investment-model"
+              />
+              <ProjectCard
+                title="Stitch"
+                description="1st-place project at McGill AI Society's 2025 hackathon. An interactive plaground for building and understanding neural networks."
+                techStack={['PyTorch', 'Typescript', 'Python', 'Flask', 'React']}
+                repoLink="https://github.com/Gui-Oba/Stitch"
+                detailLink="/projects/stitch"
               />
               <ProjectCard
                 title="Mediqueue"
                 description="A software designed to alleviate stress and anxiety within Emergency Department waiting rooms."
                 techStack={['React', 'Typescript', 'Python']}
                 repoLink="https://github.com/Gui-Oba/mediqueue"
+                detailLink="/projects/mediqueue"
               />
               <ProjectCard
                 title="Hack4Impact McGill"
@@ -108,6 +119,7 @@ export default function Home() {
                 techStack={['HTML', 'Next.js', 'React', 'JavasScript']}
                 repoLink="https://github.com/Gui-Oba/Hack4Impact-McGill-Website"
                 demoLink={"https://mcgill.hack4impact.org"}
+                detailLink="/projects/hack4impact-mcgill"
               />
 
               <ProjectCard
@@ -116,6 +128,7 @@ export default function Home() {
                 techStack={['Javascript', 'React', 'Tailwind CSS', 'Vite']}
                 repoLink="https://github.com/Gui-Oba/Portfolio"
                 // blogLink={"/writing/this-website"}
+                detailLink="/projects/portfolio"
               />
 
               <ProjectCard
@@ -123,6 +136,7 @@ export default function Home() {
                 description="A LEGO BrickPi robot trained on sensor data to perform automated tasks."
                 techStack={['Python', 'LEGO BrickPi', 'Thonny']}
                 // blogLink={"/writing/brickpi-robot"}
+                detailLink="/projects/brickpi-robot"
               />
 
               <ProjectCard
@@ -130,6 +144,7 @@ export default function Home() {
                 description="A Java-based grocery management platform that keeps store operations, customers, and employees in sync. "
                 techStack={['Java', 'Gradle', 'Cucumber', 'Umple']}
                 repoLink={"https://github.com/Gui-Oba/PantryPal"}
+                detailLink="/projects/pantrypal"
               />
 
               {/* <ProjectCard

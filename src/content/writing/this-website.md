@@ -1,5 +1,5 @@
 ---
-title: "Designing This Portfolio"
+title: "designing-this-portfolio"
 date: 2025-06-05
 description: "Notes on the design system, build tooling, and the trade-offs behind my personal site."
 ---

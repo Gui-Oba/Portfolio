@@ -1,5 +1,5 @@
 ---
-title: "Building an Autonomous Firefighting Robot: A Journey in Engineering Design"
+title: "building-a-firefighting-robot"
 date: 2025-04-05
 description: "How we built a working fire-fighting LEGO robot over the span of 2 months and countless sleepless nights."
 ---
