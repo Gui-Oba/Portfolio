@@ -23,18 +23,18 @@ export default function Projects() {
               techStack={['PyTorch', 'Typescript', 'Python', 'Flask', 'React']}
               gitLink="https://github.com/Gui-Oba/Stitch"
               detailLink="/projects/stitch"
-              mediaSrc={"/public/projects/stitch_project_thumbnail.png"}
+              mediaSrc={"/projects/stitch_project_thumbnail.png"}
             />
 
-             <ProjectCard
-                            title="Asset Management Model"
-                            description="Cross-sectional equity return prediction pipeline built during the FIAM hackathon."
-                            techStack={['Jupyter Notebook', 'DuckDB', 'Python', 'XGBoost']}
-                            gitLink="https://github.com/Gui-Oba/FIAM-model-A"
-                            detailLink="/projects/investment-model"
-                            mediaSrc={"/public/projects/FIAM_project_thumbnail.png"}
-                          />
-            
+            <ProjectCard
+              title="Asset Management Model"
+              description="Cross-sectional equity return prediction pipeline built during the FIAM hackathon."
+              techStack={['Jupyter Notebook', 'DuckDB', 'Python', 'XGBoost']}
+              gitLink="https://github.com/Gui-Oba/FIAM-model-A"
+              detailLink="/projects/investment-model"
+              mediaSrc={"/projects/FIAM_project_thumbnail.png"}
+            />
+
             <ProjectCard
               title="H4I McGill Website"
               description="A refreshed digital home for Hack4Impact McGill showcasing projects, partners, and student stories."
@@ -42,7 +42,7 @@ export default function Projects() {
               gitLink="https://github.com/Gui-Oba/Hack4Impact-McGill-Website"
               demoLink={"https://mcgill.hack4impact.org"}
               detailLink="/projects/hack4impact-mcgill"
-              mediaSrc={"public/projects/hack4impact_project_thumbnail.png"}
+              mediaSrc={"/projects/hack4impact_project_thumbnail.png"}
             />
             <ProjectCard
               title="This Website"
@@ -50,7 +50,7 @@ export default function Projects() {
               techStack={['Javascript', 'React', 'Tailwind CSS', 'Vite']}
               gitLink="https://github.com/Gui-Oba/Portfolio"
               detailLink="/projects/portfolio"
-              mediaSrc={"public/projects/portfolio_project_thumbnail.png"}
+              mediaSrc={"/projects/portfolio_project_thumbnail.png"}
 
             />
             <ProjectCard
@@ -58,14 +58,14 @@ export default function Projects() {
               description="A LEGO BrickPi robot trained on sensor data to complete repeatable tasks autonomously."
               techStack={['Python', 'LEGO BrickPi', 'Thonny']}
               detailLink="/projects/brickpi-robot"
-              mediaSrc={"public/projects/brickpi_project_thumbnail.png"}
+              mediaSrc={"/projects/brickpi_project_thumbnail.png"}
             />
             <ProjectCard
               title="ER Companion"
               description="Reimagining the emergency department waiting experience with real-time queue transparency."
               techStack={['React', 'Typescript', 'Python']}
               detailLink="/projects/mediqueue"
-              mediaSrc={"public/projects/mediqueue_project_thumbnail.png"}
+              mediaSrc={"/projects/mediqueue_project_thumbnail.png"}
               gitLink={"https://github.com/Gui-Oba/mediqueue"}
             />
             <ProjectCard
@@ -74,7 +74,7 @@ export default function Projects() {
               techStack={['Java', 'Gradle', 'Cucumber', 'Umple']}
               gitLink={"https://github.com/Gui-Oba/PantryPal"}
               detailLink="/projects/pantrypal"
-              mediaSrc={"public/projects/pantrypal_project_thumbnail.jpg"}
+              mediaSrc={"/projects/pantrypal_project_thumbnail.jpg"}
 
             />
           </div>

@@ -123,7 +123,7 @@ export default function Home() {
                 techStack={['Java', 'Gradle', 'Cucumber', 'Umple']}
                 gitLink={"https://github.com/Gui-Oba/PantryPal"}
                 detailLink="/projects/pantrypal"
-                mediaSrc={"public/projects/pantrypal_project_thumbnail.jpg"}
+                mediaSrc={"/projects/pantrypal_project_thumbnail.jpg"}
               />
 
               {/* <ProjectCard
