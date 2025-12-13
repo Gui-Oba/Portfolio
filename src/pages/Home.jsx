@@ -69,7 +69,7 @@ export default function Home() {
                 techStack={['PyTorch', 'Typescript', 'Python', 'Flask', 'React']}
                 gitLink="https://github.com/Gui-Oba/Stitch"
                 detailLink="/projects/stitch"
-                mediaSrc={"/public/projects/stitch_project_thumbnail.png"}
+                mediaSrc={"/projects/stitch_project_thumbnail.png"}
               />
               <ProjectCard
                 title="Asset Management Model"
@@ -77,7 +77,7 @@ export default function Home() {
                 techStack={['Jupyter Notebook', 'DuckDB', 'Python', 'XGBoost']}
                 gitLink="https://github.com/Gui-Oba/FIAM-model-A"
                 detailLink="/projects/investment-model"
-                mediaSrc={"/public/projects/FIAM_project_thumbnail.png"}
+                mediaSrc={"/projects/FIAM_project_thumbnail.png"}
               />
               <ProjectCard
                 title="H4I McGill Website"
@@ -86,7 +86,7 @@ export default function Home() {
                 gitLink="https://github.com/Gui-Oba/Hack4Impact-McGill-Website"
                 demoLink={"https://mcgill.hack4impact.org"}
                 detailLink="/projects/hack4impact-mcgill"
-                mediaSrc={"public/projects/hack4impact_project_thumbnail.png"}
+                mediaSrc={"/projects/hack4impact_project_thumbnail.png"}
               />
 
               <ProjectCard
@@ -96,7 +96,7 @@ export default function Home() {
                 gitLink="https://github.com/Gui-Oba/Portfolio"
                 // blogLink={"/writing/this-website"}
                 detailLink="/projects/portfolio"
-                mediaSrc={"public/projects/portfolio_project_thumbnail.png"}
+                mediaSrc={"/projects/portfolio_project_thumbnail.png"}
 
               />
 
@@ -106,14 +106,14 @@ export default function Home() {
                 techStack={['Python', 'LEGO BrickPi', 'Thonny']}
                 // blogLink={"/writing/brickpi-robot"}
                 detailLink="/projects/brickpi-robot"
-                mediaSrc={"public/projects/brickpi_project_thumbnail.png"}
+                mediaSrc={"/projects/brickpi_project_thumbnail.png"}
               />
               <ProjectCard
                 title="ER Companion"
                 description="Reimagining the emergency department waiting experience with real-time queue transparency."
                 techStack={['React', 'Typescript', 'Python']}
                 detailLink="/projects/mediqueue"
-                mediaSrc={"public/projects/mediqueue_project_thumbnail.png"}
+                mediaSrc={"/projects/mediqueue_project_thumbnail.png"}
                 gitLink={"https://github.com/Gui-Oba/mediqueue"}
               />
 

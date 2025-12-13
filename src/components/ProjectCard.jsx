@@ -16,8 +16,6 @@ export default function ProjectCard({
           src={optimizeImageUrl(mediaSrc, 500, 300)}
           alt={title}
           className="h-48 w-full object-cover"
-          loading="lazy"
-          decoding="async"
         />
       )}
       <div className="flex flex-col gap-3 p-6">
