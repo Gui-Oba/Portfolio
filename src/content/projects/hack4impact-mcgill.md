@@ -10,7 +10,8 @@ techStack:
 repoLink: "https://github.com/Gui-Oba/Hack4Impact-McGill-Website"
 demoLink: "https://mcgill.hack4impact.org"
 mediaType: image
-mediaSrc: "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?auto=format&fit=crop&w=1600&q=80"
+mediaSrc: "/project-media/hack4impact_project_thumbnail.png"
+
 ---
 
 ## Goals

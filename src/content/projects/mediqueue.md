@@ -9,8 +9,7 @@ techStack:
   - Figma
 repoLink: "https://github.com/Gui-Oba/mediqueue"
 mediaType: image
-mediaSrc: "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1600&q=80"
----
+mediaSrc:
 
 ## Why we built it
 

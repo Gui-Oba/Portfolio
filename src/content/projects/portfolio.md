@@ -9,7 +9,7 @@ techStack:
   - ShadCN UI
 repoLink: "https://github.com/Gui-Oba/Portfolio"
 mediaType: image
-mediaSrc: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80"
+mediaSrc: 
 ---
 
 ## Building the experience

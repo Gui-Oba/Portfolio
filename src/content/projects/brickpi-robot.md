@@ -8,7 +8,7 @@ techStack:
   - Thonny
 repoLink: ""
 mediaType: image
-mediaSrc: "https://images.unsplash.com/photo-1581091870622-7c24c4d5c06b?auto=format&fit=crop&w=1600&q=80"
+mediaSrc: "/project-media/brickpi_project_thumbnail.png"
 ---
 
 ## From LEGO bricks to autonomy

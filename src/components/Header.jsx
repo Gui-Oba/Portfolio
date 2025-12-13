@@ -10,7 +10,7 @@ export default function Header() {
   const today = new Date();
 
   return (
-    <header className="bg-white">
+    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md">
       <div className="container mx-auto px-6 py-5 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         {/* Left: Logo + Name */}
         <Link to="/" className="flex items-center space-x-3 group">
@@ -31,9 +31,9 @@ export default function Header() {
           <NavLink to="/projects" className={navLinkClasses}>
             Projects
           </NavLink>
-          <NavLink to="/writing" className={navLinkClasses}>
+          {/* <NavLink to="/writing" className={navLinkClasses}>
             Writing
-          </NavLink>
+          </NavLink> */}
         </nav>
 
         {/* Right: Date */}

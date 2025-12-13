@@ -9,7 +9,7 @@ techStack:
   - Jupyter Notebook
 repoLink: "https://github.com/Gui-Oba/FIAM-model-A"
 mediaType: image
-mediaSrc: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1600&q=80"
+mediaSrc: 
 ---
 
 ## Overview
