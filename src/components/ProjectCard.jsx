@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { optimizeImageUrl } from '../lib/imageOptimization';
 
 export default function ProjectCard({
   title,
@@ -12,9 +13,11 @@ export default function ProjectCard({
     <div className="flex h-full flex-col rounded-xl border border-gray-200 bg-white shadow-sm transition-transform hover:-translate-y-2 overflow-hidden">
       {mediaSrc && (
         <img
-          src={mediaSrc}
+          src={optimizeImageUrl(mediaSrc, 500, 300)}
           alt={title}
           className="h-48 w-full object-cover"
+          loading="lazy"
+          decoding="async"
         />
       )}
       <div className="flex flex-col gap-3 p-6">

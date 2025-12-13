@@ -8,9 +8,8 @@ techStack:
   - Typescript
   - React
 repoLink: "https://github.com/Gui-Oba/Stitch"
-mediaType: image
-mediaSrc: "/project-media/stitch-thumbnail.png"
+mediaType: video
+mediaSrc: "https://youtu.be/yqnI_k7uKiY"
 mediaAlt: "Stitch — interactive neural network playground"
 ---
 
-To be updated...

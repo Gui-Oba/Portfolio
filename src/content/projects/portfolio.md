@@ -24,4 +24,4 @@ Under the hood:
 
 ## Iterating in public
 
-Because this is my sandbox, I keep shipping small updates—new sections, better interactions, and performance tweaks. You can follow along in the GitHub repo or drop me a note with ideas you'd like to see explored.
+Because this is my sandbox, I keep shipping small updates—new sections, better interactions, and performance tweaks.

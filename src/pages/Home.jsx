@@ -3,7 +3,9 @@ import Header from '../components/Header';
 import ProjectCard from '../components/ProjectCard';
 import Gui_Title from '../assets/Gui_Title.svg';
 import Prince from '../assets/le_petit_prince.svg';
-import SkillCard from '../components/SkillCard';
+import SkillsTab from '../components/SkillsTab';
+import Logo from '../assets/Logo.svg';
+
 
 
 export default function Home() {
@@ -60,7 +62,6 @@ export default function Home() {
         {/* Projects Section */}
         <section id="projects" className="py-20">
           <div className="container mx-auto px-6">
-
             <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
                 title="Stitch - Learn Neural Nets"
@@ -137,29 +138,10 @@ export default function Home() {
         {/* Skills Section */}
         <section id="skills" className="py-20 bg-white">
           <div className="container mx-auto px-6">
-            <h2 className="text-4xl font-extrabold text-black text-center mb-12">
+            <h2 className="text-4xl font-extrabold text-black text-center mb-6">
               Skills
             </h2>
-            <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2">
-              <SkillCard
-                title="Programming Languages / Tools"
-                techStack={['Python', 'Java', 'C / C++', 'JavaScript', 'TypeScript', 'SQL', 'Git', 'Bash']}
-                detailLink="/projects/investment-model"
-              />
-              <SkillCard
-                title="Full-Stack Dev"
-                techStack={['React', 'Next.js', 'Node.js', 'GitHub', 'Tailwind CSS', 'HTML & CSS', 'Supabase']}
-                detailLink="/projects/mediqueue"
-              />
-              <SkillCard
-                title="Data Science / ML"
-                techStack={['Pandas', 'NumPy', 'scikit-learn', 'XGBoost', 'Jupyter Notebook', 'PyTorch', 'PyArrow', 'DuckDB']}
-              />
-              <SkillCard
-                title="Design"
-                techStack={['Figma', 'Photoshop', 'Lightroom', 'Blender', 'Premiere Pro', 'Procreate']}
-              />
-            </div>
+            <SkillsTab />
           </div>
         </section>
 
@@ -169,28 +151,26 @@ export default function Home() {
             <h2 className="text-4xl font-extrabold text-black text-center mb-10">
               Who Am I?
             </h2>
-            <div className="max-w-3xl grid grid-cols-2 mx-auto text-left gap-5 mb-10">
-              <p className="text-lg text-black mb-6">
+            <div className="max-w-4xl grid grid-cols-2 mx-auto gap-5 mb-10 place-items-center">
+              <p className="text-lg text-center text-black">
                 I'm a third year Computer Engineering student at McGill University passionate about machine learning, data science and computer hardware.
                 <br></br><br></br>
                 My journey in tech has been fueled by curiosity and a desire to create impactful solutions. From my work at
                 Hack4Impact McGill, a nonprofit whose mission is to develop software for humanitarian organizations,
-                to my participation in many hackathons, including this year's FIAM
-
-
-              </p>
-              <p className="text-lg text-black">
-                Asset Management Hackathon where
+                to my participation in many hackathons, including this year's FIAM Asset Management Hackathon where
                 my teammates and I are currently building a stock-predicting ML model,
                 I actively seek out opportunities to test my skills and expand my understanding.
                 Whether it's through coding, collaborating on projects, or exploring new technologies,
                 I'm always eager to learn and grow.<br></br><br></br>
                 In my spare time, you can find me tackling new routes at the bouldering gym or going for a run around the city.
               </p>
+
+            <img src={Logo} alt="Gui Oba Logo" className="h-3/4 w-3/4" />
+
             </div>
-            <h1 className="flex items-left justify-center ml-20 space-x-3">
+            {/* <h1 className="flex items-left justify-center ml-20 space-x-3">
               <img src={Prince} alt="Gui Oba" className="h-60 w-260" />
-            </h1>
+            </h1> */}
           </div>
           {/* </div> */}
         </section>
@@ -232,7 +212,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
 
 
       </main>

@@ -10,6 +10,7 @@ techStack:
 repoLink: "https://github.com/Gui-Oba/mediqueue"
 mediaType: image
 mediaSrc:
+---
 
 ## Why we built it
 

@@ -59,17 +59,36 @@ export default function ProjectPost() {
     return `/project-media/${source}`;
   };
 
+  const getYouTubeEmbedUrl = (url) => {
+    const videoId = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/)?.[1];
+    return videoId ? `https://www.youtube.com/embed/${videoId}` : null;
+  };
+
   const renderMedia = () => {
     const src = resolveMediaSrc();
     if (!src) return null;
 
     if (meta.mediaType === 'video') {
+      const youtubeUrl = getYouTubeEmbedUrl(src);
+      if (youtubeUrl) {
+        return (
+          <iframe
+            src={youtubeUrl}
+            title={meta?.title ?? slug}
+            className="h-auto w-full rounded-3xl border border-slate-200 aspect-video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        );
+      }
+
       return (
         <video
           src={src}
           controls
+          preload="metadata"
           className="h-auto w-full rounded-3xl border border-slate-200"
-          poster={meta.poster ?? ''}
+          poster={meta.poster ?? '/project-media/stitch-thumbnail.png'}
         />
       );
     }
@@ -199,9 +218,9 @@ export default function ProjectPost() {
                   href={meta.repoLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center rounded-lg bg-gray-100 px-4 py-2 text-sm font-semibold text-gray-900 transition hover:bg-gray-200"
+                  className="inline-flex items-center rounded-lg bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-600"
                 >
-                  View Code
+                  View Code &lt;&#47;&gt;
                 </a>
               ) : null}
             </div>
