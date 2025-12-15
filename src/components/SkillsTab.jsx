@@ -48,7 +48,6 @@ export default function SkillsTab() {
       name: 'Tools & Others',
       skills: [
         { name: 'Git', importance: 3 },
-        { name: 'Docker', importance: 2 },
         { name: 'Linux', importance: 2 },
         { name: 'Figma', importance: 2 },
         { name: 'Blender', importance: 1 },
@@ -64,12 +63,12 @@ export default function SkillsTab() {
     switch (importance) {
 
       default:
-        return 'text-lg font-bold px-6 py-4';
+        return 'text-xl font-semibold px-6 py-4';
     }
   };
 
   return (
-    <div className="max-w-4xl mx-auto bg-white border rounded-2xl border-gray-200 shadow-sm overflow-hidden">
+    <div className="max-w-5xl mx-auto bg-white border  border-gray-200 shadow-sm overflow-hidden">
       <div className="flex h-96">
         {/* Left sidebar with tabs */}
         <div className="w-1/3 bg-gray-50 border-r justify-center border-gray-200 flex flex-col">
@@ -95,7 +94,7 @@ export default function SkillsTab() {
             {skillCategories[activeTab].skills.map((skill) => (
               <span
                 key={skill.name}
-                className={`inline-flex items-center rounded-4xl bg-gradient-to-br from-gray-50 to-gray-100 border border-gray-200 text-gray-800 hover:from-gray-100 hover:to-gray-200 transition-all duration-200 cursor-default ${getSizeClass(skill.importance)}`}
+                className={`inline-flex items-center border-gray-300 border text-gray-800 hover:from-gray-100 hover:to-gray-200 transition-all duration-200 cursor-default ${getSizeClass(skill.importance)}`}
               >
                 {skill.name}
               </span>

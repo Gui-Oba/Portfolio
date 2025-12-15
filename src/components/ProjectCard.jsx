@@ -10,7 +10,7 @@ export default function ProjectCard({
   mediaSrc,
 }) {
   const cardContent = (
-    <div className="flex h-full flex-col rounded-xl border border-gray-200 bg-white shadow-sm transition-transform hover:-translate-y-2 overflow-hidden">
+    <div className="flex h-full flex-col border border-gray-200 bg-white shadow-md transition-transform hover:-translate-y-2 overflow-hidden">
       {mediaSrc && (
         <img
           src={optimizeImageUrl(mediaSrc, 500, 300)}

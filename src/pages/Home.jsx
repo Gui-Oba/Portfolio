@@ -32,26 +32,26 @@ export default function Home() {
             </p>
             <a
               href="#projects"
-              className="inline-block bg-white font-semibold rounded-full px-8 py-3 hover:bg-gray-100 transition"
+              className="inline-block bg-white font-semibold  px-8 py-3 hover:bg-gray-100 transition"
             >
               Projects
             </a>
             <a
 
               href="#skills"
-              className="inline-block bg-white font-semibold rounded-full px-8 py-3 hover:bg-gray-100 transition"
+              className="inline-block bg-white font-semibold  px-8 py-3 hover:bg-gray-100 transition"
             >
               Skills
             </a>
             <a
               href="#whoami"
-              className="inline-block bg-white font-semibold rounded-full px-8 py-3 hover:bg-gray-100 transition"
+              className="inline-block bg-white font-semibold  px-8 py-3 hover:bg-gray-100 transition"
             >
               About Me
             </a>
             <a
               href="#links"
-              className="inline-block bg-white font-semibold rounded-full px-8 py-3 hover:bg-gray-100 transition"
+              className="inline-block bg-white font-semibold  px-8 py-3 hover:bg-gray-100 transition"
             >
               Links
             </a>
@@ -157,8 +157,7 @@ export default function Home() {
                 <br></br><br></br>
                 My journey in tech has been fueled by curiosity and a desire to create impactful solutions. From my work at
                 Hack4Impact McGill, a nonprofit whose mission is to develop software for humanitarian organizations,
-                to my participation in many hackathons, including this year's FIAM Asset Management Hackathon where
-                my teammates and I are currently building a stock-predicting ML model,
+                to my participation in many hackathons, including this year's FIAM Asset Management Hackathon,
                 I actively seek out opportunities to test my skills and expand my understanding.
                 Whether it's through coding, collaborating on projects, or exploring new technologies,
                 I'm always eager to learn and grow.<br></br><br></br>
@@ -186,7 +185,7 @@ export default function Home() {
                 href="https://www.linkedin.com/in/guilherme-oba/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-full border border-gray-300 px-6 py-3 text-base font-semibold text-black transition hover:bg-gray-100"
+                className="inline-flex items-center justify-center  border border-gray-300 px-6 py-3 text-base font-semibold text-black transition hover:bg-gray-100"
               >
                 LinkedIn
               </a>
@@ -194,7 +193,7 @@ export default function Home() {
                 href="https://github.com/Gui-Oba"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-full border border-gray-300 px-6 py-3 text-base font-semibold text-black transition hover:bg-gray-100"
+                className="inline-flex items-center justify-center  border border-gray-300 px-6 py-3 text-base font-semibold text-black transition hover:bg-gray-100"
               >
                 GitHub
               </a>
@@ -204,7 +203,7 @@ export default function Home() {
                 href="https://devpost.com/guioba"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-full border border-gray-300 px-6 py-3 text-base font-semibold text-black transition hover:bg-gray-100"
+                className="inline-flex items-center justify-center  border border-gray-300 px-6 py-3 text-base font-semibold text-black transition hover:bg-gray-100"
               >
                 Devpost
               </a>
