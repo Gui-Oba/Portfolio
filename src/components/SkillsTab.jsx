@@ -36,6 +36,7 @@ export default function SkillsTab() {
       skills: [
         { name: 'PyTorch', importance: 3 },
         { name: 'XGBoost', importance: 2 },
+        { name: 'SQL', importance: 2 },
         { name: 'Pandas', importance: 3 },
         { name: 'NumPy', importance: 2 },
         { name: 'PyArrow', importance: 1 },
@@ -76,11 +77,10 @@ export default function SkillsTab() {
             <button
               key={key}
               onClick={() => setActiveTab(key)}
-              className={`px-6 py-4 text-left cursor-pointer transition-all flex items-center gap-3 ${
-                activeTab === key
+              className={`px-6 py-4 text-left cursor-pointer transition-all flex items-center gap-3 ${activeTab === key
                   ? 'bg-white font-bold text-black'
                   : 'bg-gray-50 text-gray-600 hover:bg-gray-100'
-              }`}
+                }`}
             >
               <img src={category.icon} alt={category.name} className="w-5 h-5 flex-shrink-0" />
               <span>{category.name}</span>
