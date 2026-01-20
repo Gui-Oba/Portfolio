@@ -1,7 +1,7 @@
 ---
 title: "Hack4Impact McGill Website"
 description: "A refreshed digital home for Hack4Impact McGill showcasing projects, partners, and student stories."
-date: 2023-10-15
+date: 2024-10-15
 techStack:
   - Next.js
   - React

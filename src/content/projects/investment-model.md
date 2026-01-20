@@ -1,7 +1,7 @@
 ---
 title: "Portfolio Optimization Model"
 description: "How we built a cross-sectional equity return prediction pipeline during the FIAM hackathon."
-date: 2024-03-18
+date: 2025-10-18
 techStack:
   - Python
   - XGBoost

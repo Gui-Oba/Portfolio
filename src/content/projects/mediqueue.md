@@ -1,7 +1,7 @@
 ---
 title: "Mediqueue"
 description: "Reimagining the emergency department waiting experience with real-time queue transparency."
-date: 2024-01-08
+date: 2025-01-16
 techStack:
   - React
   - TypeScript

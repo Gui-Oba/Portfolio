@@ -1,7 +1,7 @@
 ---
 title: "BrickPi Robot"
 description: "A LEGO BrickPi robot trained on sensor data to complete repeatable tasks autonomously."
-date: 2023-04-02
+date: 2025-04-02
 techStack:
   - Python
   - LEGO BrickPi

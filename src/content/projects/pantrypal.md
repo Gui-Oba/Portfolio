@@ -1,7 +1,7 @@
 ---
 title: "PantryPal"
 description: "A Java-based grocery management platform keeping store operations, customers, and employees in sync."
-date: 2022-11-20
+date: 2025-03-20
 techStack:
   - Java
   - Gradle
