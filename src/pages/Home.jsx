@@ -88,7 +88,14 @@ export default function Home() {
                 detailLink="/projects/hack4impact-mcgill"
                 mediaSrc={"/projects/hack4impact_project_thumbnail.png"}
               />
-
+              <ProjectCard
+                title="Vulcan"
+                description="A visual way to understand your computer, built during McHacks 2026."
+                techStack={['FastAPI', 'TailwindCSS', 'React', 'JavaScript']}
+                gitLink="https://github.com/Gui-Oba/Vulcan"
+                detailLink="/projects/vulcan"
+                mediaSrc={"/projects/vulcan_project_thumbnail.png"}
+              />
               <ProjectCard
                 title="This Website"
                 description="The site you're exploring right now—built as a living lab for my projects, ideas and creative pursuits."
@@ -164,7 +171,7 @@ export default function Home() {
                 In my spare time, you can find me tackling new routes at the bouldering gym or going for a run around the city.
               </p>
 
-            <img src={Logo} alt="Gui Oba Logo" className="h-3/4 w-3/4" />
+              <img src={Logo} alt="Gui Oba Logo" className="h-3/4 w-3/4" />
 
             </div>
             {/* <h1 className="flex items-left justify-center ml-20 space-x-3">
@@ -198,7 +205,7 @@ export default function Home() {
                 GitHub
               </a>
 
-              
+
               <a
                 href="https://devpost.com/guioba"
                 target="_blank"

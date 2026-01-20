@@ -45,6 +45,14 @@ export default function Projects() {
               mediaSrc={"/projects/hack4impact_project_thumbnail.png"}
             />
             <ProjectCard
+              title="Vulcan"
+              description="A visual way to understand your computer, built during McHacks 2026."
+              techStack={['FastAPI', 'TailwindCSS', 'React', 'JavaScript']}
+              gitLink="https://github.com/Gui-Oba/Vulcan"
+              detailLink="/projects/vulcan"
+              mediaSrc={"/projects/vulcan_project_thumbnail.png"}
+            />
+            <ProjectCard
               title="This Website"
               description="The site you're exploring right now—built as a living lab for design systems, content pipelines, and performance experiments."
               techStack={['Javascript', 'React', 'Tailwind CSS', 'Vite']}
