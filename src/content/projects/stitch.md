@@ -5,7 +5,7 @@ date: 2025-11-02
 techStack:
   - Python
   - PyTorch
-  - FastAPI
+  - Flask
   - Typescript
   - React
 repoLink: "https://github.com/Gui-Oba/Stitch"
