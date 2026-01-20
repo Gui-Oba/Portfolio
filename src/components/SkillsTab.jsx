@@ -17,6 +17,15 @@ export default function SkillsTab() {
       ],
       icon: '/skills/FaCode.svg',
     },
+    cloud: {
+      name: 'Cloud Services',
+      skills: [
+        { name: 'AWS', importance: 3 },
+        { name: 'Google Cloud', importance: 2 },
+        { name: 'Oracle Cloud', importance: 2 },
+      ],
+      icon: '/skills/BsCloudyFill.svg',
+    },
     fullstack: {
       name: 'Full Stack',
       skills: [
@@ -24,10 +33,10 @@ export default function SkillsTab() {
         { name: 'Next.js', importance: 3 },
         { name: 'Node.js', importance: 3 },
         { name: 'Flask', importance: 2 },
+        { name: 'FastAPI', importance: 2 },
         { name: 'Tailwind CSS', importance: 2 },
         { name: 'HTML/CSS', importance: 2 },
         { name: 'Supabase', importance: 1 },
-        { name: 'REST APIs', importance: 2 },
       ],
       icon: '/skills/BsStack.svg',
     },

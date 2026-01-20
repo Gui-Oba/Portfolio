@@ -157,7 +157,7 @@ export default function Home() {
                 <br></br><br></br>
                 My journey in tech has been fueled by curiosity and a desire to create impactful solutions. From my work at
                 Hack4Impact McGill, a nonprofit whose mission is to develop software for humanitarian organizations,
-                to my participation in many hackathons, including this year's FIAM Asset Management Hackathon,
+                to my participation in many hackathons, including last year's FIAM Asset Management Hackathon,
                 I actively seek out opportunities to test my skills and expand my understanding.
                 Whether it's through coding, collaborating on projects, or exploring new technologies,
                 I'm always eager to learn and grow.<br></br><br></br>
